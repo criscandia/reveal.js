@@ -1819,3 +1819,12 @@ $notesWidthPercent: 25%;
 @import 'print/pdf.scss';
 @import 'print/paper.scss';
 
+.holder {   
+	width: auto;
+	display: inline-block;    
+  }
+  
+  .holder img {
+	width: 30%; /* Will shrink image to 30% of its original width */
+	height: auto;    
+  }​
